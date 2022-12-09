@@ -21,6 +21,8 @@ public class TestaMetodo {
         boolean transferir = contaKamilla.transferir(200,contaPai);
         if(transferir){
             System.out.println("Transferencia realizada com sucesso");
+            System.out.println(contaKamilla.saldo);
+            System.out.println(contaPai.saldo);
         }
         else{
             System.out.println("Transferencia nao realizada");
